@@ -70,9 +70,9 @@ with model class:
 
 namespace common\models;
 
-use yeesoft\multilingual\behaviors\MultilingualBehavior;
-use yeesoft\multilingual\db\MultilingualLabelsTrait;
-use yeesoft\multilingual\db\MultilingualQuery;
+use gofuroov\multilingual\behaviors\MultilingualBehavior;
+use gofuroov\multilingual\db\MultilingualLabelsTrait;
+use gofuroov\multilingual\db\MultilingualQuery;
 
 class Post extends \yii\db\ActiveRecord
 {
@@ -121,9 +121,9 @@ class Post extends \yii\db\ActiveRecord
 
 Three steps to create multilingual model:
 
-1. Add `yeesoft\multilingual\behaviors\MultilingualBehavior` behavior to model. Name of the behavior must be `multilingual`. Only `attributes` parameter is  required. You can specify `languages` either in the behavior or in application's parameters.
-2. Method `find` must return `yeesoft\multilingual\db\MultilingualQuery`. You can either override `find` method of the model or use `yeesoft\multilingual\db\MultilingualTrait` in your `ActiveQuery` class.
-3. Use `yeesoft\multilingual\db\MultilingualLabelsTrait` to fix generating attribute labels for multilingual fields. This step is optional.
+1. Add `gofuroov\multilingual\behaviors\MultilingualBehavior` behavior to model. Name of the behavior must be `multilingual`. Only `attributes` parameter is  required. You can specify `languages` either in the behavior or in application's parameters.
+2. Method `find` must return `gofuroov\multilingual\db\MultilingualQuery`. You can either override `find` method of the model or use `gofuroov\multilingual\db\MultilingualTrait` in your `ActiveQuery` class.
+3. Use `gofuroov\multilingual\db\MultilingualLabelsTrait` to fix generating attribute labels for multilingual fields. This step is optional.
 
 
 Usage

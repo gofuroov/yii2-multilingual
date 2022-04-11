@@ -2,7 +2,7 @@
 
 namespace models;
 
-use yeesoft\multilingual\behaviors\MultilingualBehavior;
+use gofuroov\multilingual\behaviors\MultilingualBehavior;
 
 class PostWithLocalizedPrefix extends PostCustomized
 {

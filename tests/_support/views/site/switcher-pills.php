@@ -1,6 +1,6 @@
 <?php
 
-use yeesoft\multilingual\widgets\LanguageSwitcher;
+use gofuroov\multilingual\widgets\LanguageSwitcher;
 
 /* @var $this yii\web\View */
 
