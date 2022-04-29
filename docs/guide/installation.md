@@ -6,13 +6,5 @@ Preferred way to install this extension is through [composer](http://getcomposer
 - Either run
 
 ```
-composer require --prefer-dist gofuroov/yii2-multilingual "~1.0.0"
+composer require gofuroov/yii2-multilingual
 ```
-
-or add
-
-```
-"gofuroov/yii2-multilingual": "~1.0.0"
-```
-
-to the require section of your `composer.json` file.
